@@ -1,5 +1,5 @@
 Filetype: Flipper iButton key
 Version: 2
 Protocol: DS1990
-Rom Data: 01 00 56 5A FF FF FF 85
+Rom Data: 01 FF FF FF 5A 56 00 85
 
