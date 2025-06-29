@@ -1,19 +1,21 @@
 # Таблица ключей
-|Название    |Формат |Верный код ключа  |Код для iKeyBase  |Файл для флиппера(не проверяется)|Проверено мной?|Работает у меня?  |
-|:-----------|:------|:----------------:|:----------------:|:--------------------------------|:-------------:|:----------------:|
-|Cyfral      |Cyfral |`FFFF`            |`FFFF`            |[тык](/StarButton/Cyfral.ibtn)   |Нет (не будет) |Не будет проверено|
-|Eltis       |Dallas |`01A9E43C090000E6`|`E60000093CE4A901`|[тык](/StarButton/ELTIS.ibtn)    |Нет (будет)    |---               |
-|Форвард     |Dallas |`0176B82E0F00005C`|`5C00000F2EB87601`|[тык](/StarButton/Forward.ibtn)  |Нет (не будет) |Не будет проверено|
-|Key         |Dallas |TODO!             |TODO!             |[тык](/StarButton/KEY.ibtn)      |Нет (будет)    |---               |
-|Кондор      |Dallas |TODO!             |TODO!             |[тык](/StarButton/Kondor.ibtn)   |Нет (не будет) |Не будет проверено|
-|МетПлюс     |Dallas |TODO!             |TODO!             |[тык](/StarButton/METplus.ibtn)  |Нет (будет)    |---               |
-|Метаком     |Метаком|TODO!             |TODO!             |[тык](/StarButton/Metakom.ibtn)  |Нет (не будет) |Не будет проверено|
-|Метаком Офис|Dallas |TODO!             |TODO!             |[тык](/StarButton/OfficeMet.ibtn)|Нет (будет)    |---               |
-|УН1         |Dallas |TODO!             |TODO!             |[тык](/StarButton/Un1st.ibtn)    |Нет (будет)    |---               |
-|УН2         |Dallas |TODO!             |TODO!             |[тык](/StarButton/Un2st.ibtn)    |Да             |Да                |
-|УН3         |Dallas |TODO!             |TODO!             |[тык](/StarButton/Un3st.ibtn)    |Да             |Да                |
-|УН4         |Dallas |TODO!             |TODO!             |[тык](/StarButton/Un4st.ibtn)    |Нет (будет)    |---               |
-|УН5         |Dallas |TODO!             |TODO!             |[тык](/StarButton/Un5st.ibtn)    |Нет (будет)    |---               |
-|Визит1      |Dallas |TODO!             |TODO!             |[тык](/StarButton/VIZ.ibtn)      |Да             |Да                |
-|Визит2      |Dallas |TODO!             |TODO!             |[тык](/StarButton/VIZ2.ibtn)     |Да (частично)  |Нет (дополню)     |
-|Визит Офис  |Dallas |TODO!             |TODO!             |[тык](/StarButton/VizOff.ibtn)   |Нет (будет)    |---               |
+|Название      |Формат |Верный код ключа  |Код для iKeyBase  |Файл для флиппера(не проверяется)|Проверено мной?|Работает у меня?  |Примечание                                             |
+|:-------------|:------|:----------------:|:----------------:|:--------------------------------|:-------------:|:----------------:|:------------------------------------------------------|
+|Cyfral        |Cyfral |`FFFF`            |`FFFF`            |[тык](/StarButton/Cyfral.ibtn)   |Нет            |Не будет проверено|Не проверю, т.к. нет заготовок                         |
+|Eltis         |Dallas |`01A9E43C090000E6`|`E60000093CE4A901`|[тык](/StarButton/ELTIS.ibtn)    |Нет (будет)    |---               |                                                       |
+|Форвард       |Dallas |`0176B82E0F00005C`|`5C00000F2EB87601`|[тык](/StarButton/Forward.ibtn)  |Нет            |Не будет проверено|Не проверю, т.к. нет домофонов                         |
+|Key           |Dallas |`0100BE11AA0000FB`|`FB0000AA11BE0001`|[тык](/StarButton/KEY.ibtn)      |Нет (будет)    |---               |                                                       |
+|Кондор        |Dallas |`FFFFFFFFFFFFFFFF`|`FFFFFFFFFFFFFFFF`|[тык](/StarButton/Kondor.ibtn)   |Нет            |Не будет проверено|Не проверю, т.к. нет домофонов, крайне сомнительный код|
+|МетПлюс       |Dallas |`0152E5B90C0000CC`|`CC00000CB9E55201`|[тык](/StarButton/METplus.ibtn)  |Нет (будет)    |---               |                                                       |
+|Метаком       |Метаком|`FF`              |`FF`              |[тык](/StarButton/Metakom.ibtn)  |Нет            |Не будет проверено|                                                       |
+|Метаком Офис A|Dallas |`96E8DABC1F3248BB`|`BB48321FBCDAE896`|[тык](/StarButton/OfficeMet.ibtn)|Нет (будет)    |---               |                                                       |
+|Метаком Офис B|Dallas |`BBE8DABC1F324896`|Тестовый ключ     |Тестовый ключ                    |Нет (будет)    |---               |ЭТО - ТЕСТОВАЯ ВЕРСИЯ КЛЮЧА, НЕ ПРОВЕРЕННАЯ            |
+|Метаком Офис C|Dallas |`9648321FBCDAE8BB`|Тестовый ключ     |Тестовый ключ                    |Нет (будет)    |---               |ЭТО - ТЕСТОВАЯ ВЕРСИЯ КЛЮЧА, НЕ ПРОВЕРЕННАЯ            |
+|УН1           |Dallas |`01000000009019FF`|`FF19900000000001`|[тык](/StarButton/Un1st.ibtn)    |Нет (будет)    |---               |                                                       |
+|УН2           |Dallas |`01FFFFFFFFFFFF2F`|`2FFFFFFFFFFFFF01`|[тык](/StarButton/Un2st.ibtn)    |Да             |Да                |Мой любимый ключ. Мк2003.1, Маршалы, Райкманы и т.п.   |
+|УН3           |Dallas |`010000000000003D`|`3D00000000000001`|[тык](/StarButton/Un3st.ibtn)    |Да             |Да                |Маршалы, Райкманы и т.п.                               |
+|УН4           |Dallas |`01FFFFFFFF00009B`|`9B0000FFFFFFFF01`|[тык](/StarButton/Un4st.ibtn)    |Нет (будет)    |---               |                                                       | 
+|УН5           |Dallas |`01780048FDFFFFD1`|`D1FFFFFD48007801`|[тык](/StarButton/Un5st.ibtn)    |Нет (будет)    |---               |                                                       |
+|Визит1        |Dallas |`01BE40115A3600E1`|`E100365A1140BE01`|[тык](/StarButton/VIZ.ibtn)      |Да             |Да                |Проверено на см100, н100, см101 (с антифильтром)       |
+|Визит2        |Dallas |`0153D4FE00007E88`|`887E0000FED45301`|[тык](/StarButton/VIZ2.ibtn)     |Да (частично)  |Нет (дополню)     |Почти не проверял                                      |
+|Визит Офис    |Dallas |`01FFFFFF5A560085`|`8500565AFFFFFF01`|[тык](/StarButton/VizOff.ibtn)   |Нет (будет)    |---               |Танцуем с бубнами вокруг этого ключа                   |
